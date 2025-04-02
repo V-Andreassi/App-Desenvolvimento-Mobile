@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="button">Segunda Tela</string>
+    <string name="buttonT2">Voltar</string>
+    <string name="terceira_tela">Terceira Tela</string>
+    <string name="voltar">Voltar</string>
+    <string name="helena_andreassi_caretta">Helena Andreassi Caretta</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".primeiraTela">
+
+    <TextView
+        android:id="@+id/mensagemBoasVindas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Bem Vindo ao Nosso APP"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imagemBoasVindas"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/boas_vindas"
+        android:layout_marginBottom="36dp" />
+
+    <Button
+        android:id="@+id/buttonT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir para a Segunda Tela" />
+
+</LinearLayout>

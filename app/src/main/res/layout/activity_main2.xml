@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".segundaTela">
+
+    <EditText
+        android:id="@+id/notaEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a nota"
+        android:inputType="numberDecimal"
+        android:layout_margin="16dp" />
+
+    <Button
+        android:id="@+id/calcularButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:layout_margin="16dp" />
+
+    <TextView
+        android:id="@+id/resultadoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_margin="20dp" />
+
+    <ImageView
+        android:id="@+id/imagemReprovado"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_reprovado"
+        android:visibility="gone"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:id="@+id/imagemProvaSub"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_prova_sub"
+        android:visibility="gone"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:id="@+id/imagemAprovado"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_aprovado"
+        android:visibility="gone"
+        android:layout_gravity="center" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/buttonProxima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/terceira_tela"
+        android:layout_margin="16dp" />
+
+    <Button
+        android:id="@+id/buttonVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonT2"
+        android:layout_margin="16dp" />
+
+</LinearLayout>
